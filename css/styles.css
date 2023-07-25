@@ -1,13 +1,14 @@
 /* BODY MAIN STYLES */
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
+  color: var(--SLATE);
   background-color: var(--WHITE);
 }
 
 a,
 ul,
 li,
+.link,
 .nav-address-list > li {
   text-decoration: none;
   list-style-type: none;
