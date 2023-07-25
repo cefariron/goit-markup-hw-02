@@ -103,6 +103,7 @@ button {
   line-height: 24px;
   letter-spacing: 0.64px;
   background: var(--iris, #4d5ae5);
+  font-family: "Roboto", sans-serif;
 }
 
 .fltr-btn-1,
@@ -126,7 +127,7 @@ button {
   background: var(--navyblue, #2e2f42);
 }
 
-.headline-1 {
+.headline {
   color: var(--white, #fff);
   font-size: 56px;
   font-style: normal;
