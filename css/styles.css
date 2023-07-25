@@ -20,12 +20,8 @@ body {
   background-color: var(--WHITE);
 }
 
-a,
-ul,
-li,
 .link,
-.list,
-.nav-address-list > li {
+.list {
   text-decoration: none;
   list-style: none;
 }
@@ -54,7 +50,7 @@ a:focus,
   background: var(--white, #fff);
 }
 
-.link-logo {
+.logo {
   color: var(--iris, #4d5ae5);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
