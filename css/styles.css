@@ -82,8 +82,8 @@ a:focus,
   font-style: normal;
 }
 
-.e-mail,
-.phone-number {
+.mail,
+.phone {
   color: var(--SLATE);
   font-size: 16px;
   font-style: normal;
