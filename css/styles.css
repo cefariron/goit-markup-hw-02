@@ -69,7 +69,7 @@ a:focus,
   color: var(--CLOUD);
 }
 
-.list > li > a {
+.nav {
   color: var(--NAVY-BLUE);
   font-size: 16px;
   font-style: normal;
@@ -84,7 +84,7 @@ a:focus,
 
 .mail,
 .phone {
-  color: var(--SLATE, #434455);
+  color: var(--SLATE);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
