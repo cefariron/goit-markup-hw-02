@@ -13,7 +13,6 @@
   --WHITE: #ffffff;
   --Dairy: #fcfcfc;
 }
-
 /* BODY MAIN STYLES */
 body {
   font-family: "Roboto", sans-serif;
@@ -34,14 +33,16 @@ li,
 /* HOVER AND FOCUS */
 a:hover,
 a:focus,
-.link:hover,
+.link-logo:hover,
 .logo-part-2:hover,
-.footer-logo-part-2:hover {
+.footer-logo-part-2:hover,
+.list>li>a:hover,
+.list>li>a:focus {
   color: var(--OCEAN);
 }
 
-.filter-button-list>li>button:hover,
-.filter-button-list>li>button:focus,
+.filter-button-list > li > button:hover,
+.filter-button-list > li > button:focus,
 .ord-btn:hover,
 .ord-btn:focus {
   color: var(--WHITE);
@@ -53,8 +54,8 @@ a:focus,
   background: var(--white, #fff);
 }
 
-.link {
-  color: var(--NAVY-BLUE);
+.link-logo {
+  color: var(--iris, #4d5ae5);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -72,8 +73,8 @@ a:focus,
   color: var(--CLOUD);
 }
 
-.list > li {
-  color: var(--navyblue, #2e2f42);
+.list > li > a {
+  color: var(--NAVY-BLUE);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
