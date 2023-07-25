@@ -170,10 +170,10 @@ button {
   background: var(--cloud, #f4f4fd);
 }
 
-.team-list > li {
+.team > li {
   background: var(--white, #fff);
 }
-.team-list > li > h3 {
+.team > li > h3 {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
   font-style: normal;
@@ -182,7 +182,7 @@ button {
   letter-spacing: 0.4px;
 }
 
-.team-list > li > p {
+.team > li > p {
   color: var(--slate, #434455);
   font-size: 16px;
   font-style: normal;
