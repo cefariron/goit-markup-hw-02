@@ -78,6 +78,10 @@ a:focus,
   letter-spacing: 0.32px;
 }
 
+.nav-address-block {
+  font-style: normal;
+}
+
 .e-mail,
 .phone-number {
   color: var(--slate, #434455);
