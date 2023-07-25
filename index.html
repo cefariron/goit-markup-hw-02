@@ -4,40 +4,48 @@
     <meta charset="utf-8" />
     <meta name="description" content="a studio to promote your business" />
     <title>WebStudio</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <!-- Header -->
-    <header>
+    <header class="header-block">
+      <!-- Logo link -->
+      <a class="nav-logo" href="./index.html"
+      >Web<span class="logo-part-2">Studio</span></a
+    >
       <!-- Navigation links -->
-      <nav>
-        <!-- Logo link -->
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="./index.html">Studio</a></li>
-          <li><a href="./index.html">Portfolio</a></li>
-          <li><a href="./index.html">Contacts</a></li>
+      <nav class="nav-block">
+        <ul class="nav-list">
+          <li><a class="studio-nav-link" href="./index.html">Studio</a></li>
+          <li><a class="portfolio-nav-link" href="./portfolio.html">Portfolio</a></li>
+          <li><a class="contacts-nav-link" href="./index.html">Contacts</a></li>
         </ul>
       </nav>
-      <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com"> info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      <address class="nav-address-block">
+        <ul class="nav-address-list">
+          <li><a class="e-mail" href="mailto:info@devstudio.com"> info@devstudio.com</a></li>
+          <li><a class="phone-number" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
     </header>
     <!-- Main content -->
     <main>
       <!-- headline + button container -->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="order-section">
+        <h1 class="h1-homepage">Effective Solutions for Your Business</h1>
+        <button class="ord-btn" type="button">Order Service</button>
       </section>
       <!-- service description -->
-      <section>
+      <section class="service-description-section">
         <h2 hidden>Service Description</h2>
-        <ul>
+        <ul class="service-description-list">
           <li>
             <h3>Strategy</h3>
             <p>
@@ -69,8 +77,8 @@
         </ul>
       </section>
       <!-- product image -->
-      <section>
-        <h2>What are we doing</h2>
+      <section class="product-image-section">
+        <h2 class="h2-homepage">What are we doing</h2>
         <ul>
           <li>
             <img src="./images/img-1.jpg" alt="img1" width="360" height="300" />
@@ -84,9 +92,9 @@
         </ul>
       </section>
       <!-- team list container -->
-      <section>
-        <h2>Our Team</h2>
-        <ul>
+      <section class="team-list-section">
+        <h2 class="h2-homepage">Our Team</h2>
+        <ul class="team-list">
           <li>
             <img
               src="./images/Product-Designer-img-1.jpg"
@@ -133,9 +141,11 @@
     <!-- Footer content -->
     <footer>
       <!-- Logo link -->
-        <a href="./index.html">WebStudio</a>
+      <a class="nav-logo" href="./index.html"
+          >Web<span class="footer-logo-part-2">Studio</span></a
+        >
       <!-- Footer text -->
-      <p>
+      <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
