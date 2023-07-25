@@ -126,13 +126,14 @@ button {
   background: var(--navyblue, #2e2f42);
 }
 
-.h1-homepage {
+.headline-1 {
   color: var(--white, #fff);
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 1.12px;
+  text-align: center;
 }
 /* service-description-section */
 .service-description-list > li > h3 {
