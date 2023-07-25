@@ -100,7 +100,6 @@ button {
   line-height: 24px;
   letter-spacing: 0.64px;
   background: var(--iris, #4d5ae5);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .fltr-btn-1,
@@ -167,9 +166,6 @@ button {
 
 .team-list > li {
   background: var(--white, #fff);
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .team-list > li > h3 {
   color: var(--navyblue, #2e2f42);
