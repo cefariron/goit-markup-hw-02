@@ -1,7 +1,7 @@
 /* BODY MAIN STYLES */
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--NAVY-BLUE);
+  color: #434455;
   background-color: var(--WHITE);
 }
 
@@ -34,7 +34,7 @@ a:focus,
 :root {
   --Iris: #4d5ae5;
   --OCEAN: #404bbf;
-  --NAVY-BLUE: #434455;
+  --NAVY-BLUE: #2e2f42;
   --GREEN: #31d0aa;
   --SLATE: #434455;
   --LIGHT-SLATE: #8e8f99;
@@ -52,11 +52,11 @@ a:focus,
 
 .nav-logo {
   color: var(--iris, #4d5ae5);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
