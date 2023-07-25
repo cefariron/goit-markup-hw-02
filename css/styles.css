@@ -222,7 +222,7 @@ button {
 }
 
 /* FOOTER */
-footer {
+.footer-section {
   background: var(--navyblue, #2e2f42);
 }
 
