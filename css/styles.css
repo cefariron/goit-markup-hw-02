@@ -34,7 +34,7 @@ a:focus,
 :root {
   --Iris: #4d5ae5;
   --OCEAN: #404bbf;
-  --NAVY-BLUE: #2e2f42;
+  --NAVY-BLUE: #434455;
   --GREEN: #31d0aa;
   --SLATE: #434455;
   --LIGHT-SLATE: #8e8f99;
@@ -47,13 +47,6 @@ a:focus,
 }
 /* HEADER MAIN STYLES */
 .header-nav {
-  display: flex;
-  width: 1440px;
-  height: 72px;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-  border-bottom: 1px solid var(--cornflower, #e7e9fc);
   background: var(--white, #fff);
 }
 
@@ -106,7 +99,6 @@ button {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.64px;
-  border-radius: 4px;
   background: var(--iris, #4d5ae5);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
@@ -117,14 +109,11 @@ button {
 .fltr-btn-4,
 .fltr-btn-5 {
   color: var(--iris, #4d5ae5);
-  text-align: center;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.64px;
-  border-radius: 4px;
-  border: 1px solid var(--cornflower, #e7e9fc);
   background: var(--cloud, #f4f4fd);
 }
 
@@ -137,7 +126,6 @@ button {
 
 .h1-homepage {
   color: var(--white, #fff);
-  text-align: center;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
@@ -166,7 +154,6 @@ button {
 /* product-image-section */
 .h2-homepage {
   color: var(--navyblue, #2e2f42);
-  text-align: center;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -179,7 +166,6 @@ button {
 }
 
 .team-list > li {
-  border-radius: 0px 0px 4px 4px;
   background: var(--white, #fff);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
@@ -187,7 +173,6 @@ button {
 }
 .team-list > li > h3 {
   color: var(--navyblue, #2e2f42);
-  text-align: center;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -197,7 +182,6 @@ button {
 
 .team-list > li > p {
   color: var(--slate, #434455);
-  text-align: center;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -210,7 +194,6 @@ button {
 .row-1-list > li,
 .row-2-list > li,
 .row-3-list > li {
-  border: 1px solid var(--cornflower, #e7e9fc);
   background: var(--white, #fff);
 }
 
