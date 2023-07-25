@@ -156,14 +156,15 @@ button {
 }
 
 /* product-image-section */
-.h2-homepage {
+.headline-two {
   color: var(--navyblue, #2e2f42);
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  text-align: center;
 }
 .team-list-section {
   background: var(--cloud, #f4f4fd);
