@@ -84,7 +84,7 @@ a:focus,
 
 .e-mail,
 .phone-number {
-  color: var(--slate, #434455);
+  color: var(--SLATE);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
