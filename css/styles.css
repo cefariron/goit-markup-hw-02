@@ -17,7 +17,7 @@ li,
 /* HOVER AND FOCUS */
 a:hover,
 a:focus,
-.nav-logo:hover,
+.link:hover,
 .logo-part-2:hover,
 .footer-logo-part-2:hover {
   color: var(--OCEAN);
@@ -51,7 +51,7 @@ a:focus,
   background: var(--white, #fff);
 }
 
-.nav-logo {
+.link {
   color: var(--iris, #4d5ae5);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
