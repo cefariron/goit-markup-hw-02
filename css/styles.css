@@ -127,7 +127,7 @@ button {
   background: var(--navyblue, #2e2f42);
 }
 
-.headline {
+.headline-one {
   color: var(--white, #fff);
   font-size: 56px;
   font-style: normal;
