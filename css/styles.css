@@ -27,11 +27,8 @@ body {
 }
 
 /* HOVER AND FOCUS */
-a:hover,
-a:focus,
-.link-logo:hover,
-.logo-part-2:hover,
-.footer-logo-part-2:hover,
+.link:hover,
+.link:focus,
 .list > li > a:hover,
 .list > li > a:focus {
   color: var(--OCEAN);
