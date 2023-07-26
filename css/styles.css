@@ -19,8 +19,7 @@ body {
   color: var(--SLATE);
   background-color: var(--WHITE);
 }
-ul,
-li,
+
 .link,
 .list {
   text-decoration: none;
@@ -38,8 +37,8 @@ a:focus,
   color: var(--OCEAN);
 }
 
-.filter-button-list > li > button:hover,
-.filter-button-list > li > button:focus,
+.filter-button > li > button:hover,
+.filter-button > li > button:focus,
 .ord-btn:hover,
 .ord-btn:focus {
   color: var(--WHITE);
