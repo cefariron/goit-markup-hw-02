@@ -19,7 +19,8 @@ body {
   color: var(--SLATE);
   background-color: var(--WHITE);
 }
-
+ul,
+li,
 .link,
 .list {
   text-decoration: none;
@@ -32,8 +33,8 @@ a:focus,
 .link-logo:hover,
 .logo-part-2:hover,
 .footer-logo-part-2:hover,
-.list>li>a:hover,
-.list>li>a:focus {
+.list > li > a:hover,
+.list > li > a:focus {
   color: var(--OCEAN);
 }
 
