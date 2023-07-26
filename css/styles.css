@@ -194,15 +194,11 @@ button {
 
 /* SECTION STYLES PORTFOLIO PAGE */
 
-.row-1-list > li,
-.row-2-list > li,
-.row-3-list > li {
+.row > li {
   background: var(--white, #fff);
 }
 
-.row-1 > li > a > h3,
-.row-2 > li > a > h3,
-.row-3 > li > a > h3 {
+.row > li > a > h3 {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
   font-style: normal;
@@ -211,9 +207,7 @@ button {
   letter-spacing: 0.4px;
 }
 
-.row-1 > li > a > p,
-.row-2 > li > a > p,
-.row-3 > li > a > p {
+.row > li > a > p {
   color: var(--slate, #434455);
   font-size: 16px;
   font-style: normal;
