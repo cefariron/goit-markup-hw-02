@@ -43,9 +43,6 @@ body {
 }
 
 /* HEADER MAIN STYLES */
-.header-nav {
-  background: var(--white, #fff);
-}
 
 .logo {
   color: var(--iris, #4d5ae5);
