@@ -48,10 +48,9 @@ body {
   color: var(--iris, #4d5ae5);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  font-style: normal;
   font-weight: 800;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -68,8 +67,8 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .nav-address-block {
@@ -79,10 +78,9 @@ body {
 .address {
   color: var(--SLATE);
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /* BUTTONS */
 button {
@@ -92,10 +90,9 @@ button {
 .ord-btn {
   color: var(--white, #fff);
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.64px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   background: var(--iris, #4d5ae5);
   font-family: "Roboto", sans-serif;
 }
@@ -104,10 +101,9 @@ button {
   color: var(--iris, #4d5ae5);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.64px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   background: var(--cloud, #f4f4fd);
 }
 
@@ -121,39 +117,35 @@ button {
 .headline-one {
   color: var(--white, #fff);
   font-size: 56px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 1.12px;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 /* service-description-section */
 .service-description > li > h3 {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .service-description > li > p {
   color: var(--slate, #434455);
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* product-image-section */
 .headline-two {
   color: var(--navyblue, #2e2f42);
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
 }
@@ -167,19 +159,17 @@ button {
 .team > li > h3 {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .team > li > p {
   color: var(--slate, #434455);
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* SECTION STYLES PORTFOLIO PAGE */
@@ -191,19 +181,17 @@ button {
 .row > li > a > h2 {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .row > li > a > p {
   color: var(--slate, #434455);
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* FOOTER */
@@ -214,8 +202,7 @@ button {
 .footer-text {
   color: var(--cloud, #f4f4fd);
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
